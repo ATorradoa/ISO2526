@@ -39,9 +39,9 @@ while true ; do
 			echo
                 	if grep ^$dni agenda.txt >/dev/null ; then
                         	nombre=$(grep ^$dni agenda.txt | cut -d ":" -f 2)
-				apellidos=$(grep ^$dni agenda.txt | cut -d ":" -f 3)
-				localidad=$(grep ^$dni agenda.txt | cut -d ":" -f 4)
-				echo "La persona con DNI número $dni es: $nombre $apellidos, y vive en $localidad"
+							apellidos=$(grep ^$dni agenda.txt | cut -d ":" -f 3)
+							localidad=$(grep ^$dni agenda.txt | cut -d ":" -f 4)
+							echo "La persona con DNI número $dni es: $nombre $apellidos, y vive en $localidad"
                 	else
                        		echo "EL usuario no existe"
                 fi
