@@ -1,4 +1,5 @@
 # Ejercicios de ISO
-<p align="center">
+<h3 align="center">
+  Subida de ejercicios para la correcion
   👍
-</p>
+</h3>
