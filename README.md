@@ -1,2 +1,4 @@
-# ISO2526
 # Ejercicios de ISO
+<p align="center">
+  👍
+</p>
